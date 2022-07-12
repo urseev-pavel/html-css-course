@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cv, beginner, programmer">
+    <meta name="description" content="Резюме начинающего программиста">
+    <title>Резюме начинающего программиста</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="info">
+            <img src="avatar.jpg" alt="Начинающий программист" class="avatar">
+
+            <div class="info-text">
+                <h1>Начинающий<br>программист</h1>
+
+                <p>Я начинающий <strong>программист</strong> из России.</p>
+                <p>И я <strong>очень люблю</strong> <em>учиться</em> чему-то новому...</p>
+
+                <h4>Список социальных сетей:</h4>
+                <a href="#" target="_blank">Telegram</a> |
+                <a href="#" target="_blank">GitHub</a> |
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="card hobby">
+            <h2>Мои хобби:</h2>
+            <ol>
+                <li>Программирование</li>
+                <li>Чтение научной фантастики</li>
+                <li>Прогулки в лесу</li>
+            </ol>
+        </div>
+
+        <div class="card work">
+            <h2>Мой опыт работы:</h2>
+            <table class="table">
+                <thead>
+                    <th>Название организации</th>
+                    <th>Должность</th>
+                    <th>Период работы</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Московский Университет</td>
+                        <td>Ассистент преподавателя</td>
+                        <td>2017 - 2018</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Научно-исследовательский институт</td>
+                        <td>Младший научный сотрудник</td>
+                        <td>2019 - 2021</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>ИП Яндекс И.П.</td>
+                        <td>Помощник помощника младшего разработчика</td>
+                        <td>2021 - н.в.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <form action="/" class="card form">
+            <h2>Связаться со мной:</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя...">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email...">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+            
+            <input class="btn" type="submit" value="Отправить!">
+        </form>
+
+    </div>
+
+</body>
+</html>
